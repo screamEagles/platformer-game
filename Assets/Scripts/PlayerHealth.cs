@@ -74,6 +74,6 @@ public class PlayerHealth : MonoBehaviour
     {
         spriteRenderer.color = Color.red;
         yield return new WaitForSeconds(0.2f);
-        spriteRenderer.color = Color.white;
+        spriteRenderer.color = new Color(0, 1f, 1f);
     }
 }
