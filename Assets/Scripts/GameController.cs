@@ -58,7 +58,7 @@ public class GameController : MonoBehaviour
         if (progressAmount >= 100)
         {
             loadCanvas.SetActive(true);
-            Debug.Log("Level Complete");
+            // Debug.Log("Level Complete");
         }
     }
 
